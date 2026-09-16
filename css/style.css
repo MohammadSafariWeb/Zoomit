@@ -1,0 +1,1005 @@
+@import "tailwindcss";
+
+
+
+.hovering {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+.hovering1 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+.hovering2 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+
+.hovering3 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+
+.hovering4 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+
+.hovering5 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+
+.hovering6 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+
+.hovering7 {
+    >ul {
+        visibility: hidden;
+        transition: .4s;
+    }
+
+    &:hover {
+        >ul {
+            opacity: 1;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+.hovering8:hover {
+    transform: scale(1.01);
+
+    >.diving1 {
+        transform: rotate(-360deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 2s;
+    }
+
+    >.diving2 {
+        transform: rotate(360deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 2s;
+    }
+
+    >.diving3 {
+        transform: rotate(-372deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 4s;
+    }
+
+    >.diving4 {
+        transform: rotate(372deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 4s;
+    }
+}
+
+.hovering9:hover {
+    transform: scale(1.01);
+
+    >.diving1 {
+        transform: rotate(360deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 2s;
+    }
+
+    >.diving2 {
+        transform: rotate(-360deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 2s;
+    }
+
+    >.diving3 {
+        transform: rotate(372deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 4s;
+    }
+
+    >.diving4 {
+        transform: rotate(-372deg) !important;
+        border: 1px solid rgba(255, 255, 255, 0.671);
+        transition: 4s;
+    }
+}
+
+.svghovering:hover {
+    svg {
+        transform: rotate(1080deg) !important;
+        background: oklch(57.7% 0.245 27.325);
+        border: 3px solid oklch(57.7% 0.245 27.325);
+        border-radius: 50%;
+        transition: 1.5s;
+    }
+
+    img {
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    div {
+        border-radius: 10px;
+        transition: 1s;
+    }
+}
+
+.nav-item-underline:after {
+    content: "";
+    border-bottom: 5px solid oklch(57.7% 0.245 27.325);
+    border-radius: 5px 5px 0 0;
+    transition: transform .3s ease-in-out;
+    display: block;
+    margin-right: 2.5%;
+    margin-top: 50px;
+    width: 95%;
+    transform: scaleX(0)
+}
+
+.nav-item-underline:hover:after {
+    transform: scaleX(1)
+}
+
+
+.nav-item-underline2:after {
+    content: "";
+    border-bottom: 5px solid oklch(57.7% 0.245 27.325);
+    border-radius: 5px 5px 0 0;
+    transition: transform .3s ease-in-out;
+    display: block;
+    margin-right: 5%;
+    margin-top: -15px;
+    width: 90%;
+    transform: scaleX(0)
+}
+
+.nav-item-underline2:hover:after {
+    transform: scaleX(1)
+}
+
+
+.nav-item-underline3:after {
+    content: "";
+    border-bottom: 8px solid oklch(57.7% 0.245 27.325);
+    border-radius: 5px 5px 0 0;
+    transition: transform .3s ease-in-out;
+    display: block;
+    margin-right: 2.5%;
+    margin-top: -18px;
+    width: 95%;
+    transform: scaleX(0)
+}
+
+.nav-item-underline3:hover:after {
+    transform: scaleX(1)
+}
+
+
+.nav-item-underline4:after {
+    content: "";
+    border-bottom: 4px solid oklch(57.7% 0.245 27.325);
+    border-radius: 5px 5px 0 0;
+    transition: transform .3s ease-in-out;
+    display: block;
+    margin-right: 2.5%;
+    margin-top: 50px;
+    width: 95%;
+    transform: scaleX(0)
+}
+
+.nav-item-underline4:hover:after {
+    transform: scaleX(1)
+}
+
+
+.webkit::-webkit-scrollbar {
+    background-color: inherit;
+    border-radius: 10px;
+    border: .5px solid gray;
+    height: 6px;
+}
+
+.webkit::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    border: .1px solid gray;
+}
+
+.webkit::-webkit-scrollbar-thumb:hover {
+    width: 25%;
+}
+
+
+.hoverscale {
+    transform: scale(1) !important;
+}
+
+.linehight {
+    line-height: 20px;
+}
+
+
+/* image change by hover */
+
+.imagehover:hover {
+    >div:first-of-type {
+        >img:first-of-type {
+            display: none;
+        }
+
+        >img:last-of-type {
+            display: block;
+        }
+    }
+}
+
+
+
+/* light mode */
+
+.lightmode {
+    .shadowlight {
+        --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+
+        .shadow-lg {
+            --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+            box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+        }
+    }
+
+    header {
+        transition: .5s;
+        background-color: #f9f9f9;
+
+        svg:first-of-type {
+            fill: black;
+            transition: 3s;
+
+        }
+
+        ul {
+            background-color: #f9f9f9;
+
+            :hover {
+                fill: red;
+                color: red;
+            }
+        }
+
+        li {
+            color: black;
+
+            svg {
+                fill: gray;
+            }
+
+        }
+    }
+
+    main {
+        section:nth-of-type(2) {
+            background-color: #f9f9f9;
+            transition: 1s;
+
+            >div:first-of-type {
+                h3 {
+                    color: white;
+                }
+            }
+
+            >div:last-of-type {
+                h3 {
+                    color: black;
+                }
+            }
+        }
+
+        section:nth-of-type(3) {
+            background-color: #f9f9f9;
+            transition: 1s;
+
+            >div {
+
+                >div:nth-of-type(1) {
+                    >div:nth-of-type(1) {
+                        >h3 {
+                            color: black;
+                        }
+                    }
+
+                    >div:nth-of-type(7),
+                    >div:nth-of-type(9),
+                    >div:nth-of-type(12) {
+                        >h3 {
+                            color: black;
+                            transition: 1s;
+                        }
+                    }
+                }
+
+                >div:nth-of-type(2) {
+                    background-color: white;
+                    transition: 1s;
+
+                    >div:nth-of-type(1) {
+                        >h3 {
+                            color: black;
+                            transition: 1s;
+                        }
+                    }
+
+                    >div:nth-of-type(2) {
+                        >button {
+                            color: black;
+                            background-color: inherit;
+                            border: 1px solid gray;
+                            border-radius: 50px;
+                            padding: 4px 8px 4px 8px;
+                            transition: 1s;
+
+                            &:focus {
+                                background-color: #202425;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    >div:nth-of-type(3),
+                    >div:nth-of-type(4),
+                    >div:nth-of-type(5),
+                    >div:nth-of-type(6),
+                    >div:nth-of-type(7),
+                    >div:nth-of-type(8),
+                    >div:nth-of-type(9),
+                    >div:nth-of-type(10),
+                    >div:nth-of-type(11),
+                    >div:nth-of-type(12),
+                    >div:nth-of-type(13),
+                    >div:nth-of-type(14),
+                    >div:nth-of-type(15),
+                    >div:nth-of-type(16) {
+                        div:first-of-type {
+                            div:first-of-type {
+                                div:first-of-type {
+                                    svg {
+                                        fill: red;
+                                    }
+                                }
+                            }
+                        }
+
+                        h3 {
+                            color: black;
+
+                            &:hover {
+                                color: red;
+                            }
+                        }
+
+                        p,
+                        span {
+                            color: gray;
+                        }
+
+                        svg {
+                            fill: gray;
+                        }
+
+                        >div:last-of-type {
+                            background-color: gray;
+                        }
+                    }
+
+                    >div:nth-of-type(17) {
+                        h3 {
+                            color: black;
+                            text-shadow: 0 1px 40px black;
+                        }
+                    }
+                }
+            }
+
+            .lighting {
+
+                >div {
+                    background-color: white;
+                    transition: 1s;
+
+                    >div:nth-of-type(1) {
+                        >h3 {
+                            color: black;
+                            transition: 1s;
+                        }
+                    }
+
+                    >div:nth-of-type(2) {
+                        >button {
+                            color: black;
+                            background-color: inherit;
+                            border: 1px solid gray;
+                            border-radius: 50px;
+                            padding: 4px 8px 4px 8px;
+                            transition: 1s;
+
+                            &:focus {
+                                background-color: #202425;
+                                color: white;
+                            }
+                        }
+                    }
+
+                    >div:nth-of-type(3),
+                    >div:nth-of-type(4),
+                    >div:nth-of-type(5),
+                    >div:nth-of-type(6),
+                    >div:nth-of-type(7),
+                    >div:nth-of-type(8),
+                    >div:nth-of-type(9),
+                    >div:nth-of-type(10),
+                    >div:nth-of-type(11),
+                    >div:nth-of-type(12),
+                    >div:nth-of-type(13),
+                    >div:nth-of-type(14),
+                    >div:nth-of-type(15),
+                    >div:nth-of-type(16) {
+                        div:first-of-type {
+                            div:first-of-type {
+                                div:first-of-type {
+                                    svg {
+                                        fill: red;
+                                    }
+                                }
+                            }
+                        }
+
+                        h3 {
+                            color: black;
+
+                            &:hover {
+                                color: red;
+                            }
+                        }
+
+                        p,
+                        span {
+                            color: gray;
+                        }
+
+                        svg {
+                            fill: gray;
+                        }
+
+                        >div:last-of-type {
+                            background-color: gray;
+                        }
+                    }
+
+                    >div:nth-of-type(17) {
+                        h3 {
+                            color: black;
+                            text-shadow: 0 1px 40px black;
+                        }
+                    }
+                }
+            }
+        }
+
+        section:nth-of-type(4) {
+            background-color: white;
+
+            .diving0 {
+                background-color: #f9f9f9;
+            }
+
+            .diving1 {
+                background-color: #f9f9f9;
+            }
+
+            .diving2 {
+                background-color: #f9f9f9;
+            }
+
+            .diving3 {
+                background-color: #f9f9f9;
+            }
+
+            .diving4 {
+                background-color: #f9f9f9;
+            }
+
+            .diving5 {
+                background-color: #f9f9f9;
+            }
+
+            p {
+                color: black;
+            }
+
+            svg {
+                fill: oklch(57.7% 0.245 27.325)
+            }
+
+            .lightdif {
+                background-color: red;
+            }
+
+            h3 {
+                color: black;
+            }
+
+            >div {
+                >div {
+                    >div {
+                        >div {
+                            background-color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        section:nth-of-type(5) {
+            background-color: #f9f9f9;
+
+            h3 {
+                color: black;
+            }
+
+            >div {
+                >div:nth-of-type(2) {
+                    >div {
+                        >button {
+                            color: black;
+                            background-color: inherit;
+                            border: 1px solid gray;
+                            border-radius: 50px;
+                            padding: 4px 8px 4px 8px;
+                            transition: 1s;
+
+                            &:focus {
+                                background-color: #202425;
+                                color: white;
+                            }
+                        }
+
+                        >div {
+                            background-color: white;
+
+                            >div {
+                                >div {
+                                    >p {
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section:nth-of-type(6) {
+            background-color: white;
+
+            >div {
+                >div:first-of-type {
+                    >div:first-of-type {
+                        h3 {
+                            color: black;
+                        }
+                    }
+                }
+
+                >div:nth-of-type(2) {
+                    >div {
+                        >div {
+                            >div {
+                                >button {
+                                    color: black;
+                                    background-color: inherit;
+                                    border: 1px solid gray;
+                                    border-radius: 50px;
+                                    padding: 4px 8px 4px 8px;
+                                    transition: 1s;
+
+                                    &:focus {
+                                        background-color: #202425;
+                                        color: white;
+                                    }
+                                }
+                            }
+
+                            >div:nth-of-type(2) {
+                                >div {
+                                    >div {
+                                        background-color: #f9f9f9;
+
+                                        h3,
+                                        span,
+                                        svg {
+                                            color: black;
+                                            fill: black;
+                                        }
+
+                                        >div {
+                                            >div {
+                                                background-color: #f9f9f9;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            >div:last-of-type {
+                >div:nth-of-type(1) {
+                    h3 {
+                        color: black
+                    }
+                }
+
+                >div:nth-of-type(2) {
+                    >button {
+                        color: black;
+                        background-color: inherit;
+                        border: 1px solid gray;
+                        border-radius: 50px;
+                        padding: 4px 8px 4px 8px;
+                        transition: 1s;
+
+                        &:focus {
+                            background-color: #202425;
+                            color: white;
+                        }
+                    }
+                }
+
+                >div:nth-of-type(3) {
+                    background-color: #f9f9f9;
+
+                    h3,
+                    span,
+                    svg {
+                        color: black;
+                        fill: black;
+                    }
+
+                    >div {
+                        >div {
+                            background-color: #f9f9f9;
+                        }
+                    }
+
+                    div {
+                        div {
+                            div {
+                                div {
+                                    background-color: #f9f9f9;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section:nth-of-type(7) {
+            background-color: #f9f9f9;
+
+            >div:first-of-type {
+                >div:first-of-type {
+                    >div:first-of-type {
+                        h3 {
+                            color: black;
+                        }
+                    }
+                }
+
+                >div:nth-of-type(2) {
+                    >div {
+                        >button {
+                            color: black;
+                            background-color: inherit;
+                            border: 1px solid gray;
+                            border-radius: 50px;
+                            padding: 4px 8px 4px 8px;
+                            transition: 1s;
+
+                            &:focus {
+                                background-color: #202425;
+                                color: white;
+                            }
+                        }
+
+
+                        >div:nth-of-type(2) {
+                            >div {
+                                >div {
+                                    background-color: #f9f9f9;
+
+                                    h3,
+                                    span,
+                                    svg {
+                                        color: black;
+                                        fill: black;
+                                    }
+
+                                    >div {
+                                        >div {
+                                            background-color: #f9f9f9;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >div:first-of-type,
+            >div:last-of-type {
+                >div:first-of-type {
+                    h3 {
+                        color: black
+                    }
+                }
+
+                >div:nth-of-type(2) {
+                    button {
+                        color: black;
+                        background-color: inherit;
+                        border: 1px solid gray;
+                        border-radius: 50px;
+                        padding: 4px 8px 4px 8px;
+                        transition: 1s;
+
+                        &:focus {
+                            background-color: #202425;
+                            color: white;
+                        }
+                    }
+                }
+
+                >div:last-of-type {
+                    .lightdivopacity {
+                        background-color: black
+                    }
+
+                    h3 {
+                        color: white
+                    }
+
+                    .inheritdiv {
+                        background-color: transparent
+                    }
+                }
+            }
+        }
+    }
+
+    footer:first-of-type {
+        background-color: white;
+
+        a {
+            color: black;
+        }
+
+        svg {
+            fill: black;
+        }
+
+        .svgchange {
+            opacity: 30%;
+
+        }
+
+        >div:first-of-type {
+            background-color: #f9f9f9;
+            color: #202425;
+            border: 1px solid gray;
+            border-radius: 30px;
+            transition: .4s;
+
+            &:hover {
+                background-color: #202425;
+                color: #f9f9f9;
+            }
+        }
+
+        >div:nth-of-type(2) {
+            >div {
+                >div {
+                    >div:nth-of-type(2) {
+                        a {
+                            color: gray;
+                        }
+                    }
+
+                }
+
+                >div:nth-of-type(2) {
+                    p {
+                        color: black;
+                    }
+                }
+            }
+
+            >div:nth-of-type(2) {
+                >div:nth-of-type(2) {
+                    background-color: #f9f9f9;
+                    border: 1px solid gray;
+                    border-radius: 30px;
+
+                    >div {
+                        svg {
+                            fill: gray;
+
+                            &:hover {
+                                fill: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .lightdivclass {
+        background-color: white;
+    }
+
+    .lighth3special {
+        color: black;
+    }
+
+    .webkit::-webkit-scrollbar-thumb {
+        background: gray;
+    }
+
+    .lighting2 {
+
+        h3 {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+
+        div {
+            background-color: #f9f9f9;
+        }
+
+        .spacial-p {
+            color: green;
+        }
+
+        .spacial-o {
+            color: #feba3c;
+        }
+    }
+
+    .fill-red-svg-in-light {
+        fill: red !important
+    }
+
+
+
+
+
+    .light-bg-footer {
+        background-color: white
+    }
+
+    .light-a-tag {
+        color: black
+    }
+
+    .light-a-tag2 {
+        color: gray
+    }
+
+    .light-mode {
+        background-color: white;
+
+        div {
+            :hover{
+                fill:red
+            }
+            svg {
+                fill: gray
+            }
+        }
+    }
+
+    .light-div-text{
+        color:gray
+    }
+    
+}
