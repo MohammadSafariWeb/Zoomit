@@ -1,7 +1,7 @@
 # Zoomit
 
 
-Developed by Mohammad Sfari
+Developed by Mohammad Safari
 <br>
 
 Date of Mudified: 03/18/2025
