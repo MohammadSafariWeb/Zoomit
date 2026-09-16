@@ -4,7 +4,7 @@
 Developed by Mohammad Sfari
 <br>
 
-Date of Mudified: 12/24/2025
+Date of Mudified: 03/18/2025
 <hr>
 <a href="https://mohammadsafariweb.github.io/Zoomit/">Online Demo</a>
 <hr>
